@@ -1,0 +1,1 @@
+In React Router Dom v6, attempting to access the `useParams()` hook outside of a component rendered within a route will result in an error.  This is because `useParams()` relies on the routing context, which is only available within route components.
